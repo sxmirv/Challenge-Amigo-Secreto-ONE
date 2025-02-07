@@ -40,13 +40,15 @@ function atualizaLista(){
 function sortearAmigo(){
 
     if (nomes.length === 0){
-        console.log("Lista vazia!");
+        let ul = document.getElementById('listaAmigos');
+        ul.innerHTML = "<li>Atenção, lista vazia!</li>";
+        return;
     }
     else{
         let indiceSorteado = Math.floor(Math.random() * nomes.length);
         let nomeSorteado = nomes[indiceSorteado];
 
-        const ul = document.getElementById('listaAmigos');
+        let ul = document.getElementById('listaAmigos');
         ul.innerHTML = '';
         
         let li = document.createElement('li');
