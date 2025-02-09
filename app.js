@@ -52,12 +52,13 @@ function sortearAmigo(){
         let nomeSorteado = nomes[indiceSorteado]; //pega o valor do índice sorteado
 
         //limpa a lista para mostrar o nome sorteado
-        let ul = document.getElementById('listaAmigos');
-        ul.innerHTML = '';
+        document.getElementById('listaAmigos').style.display = 'none';
+        
+        let ul = document.getElementById('resultado');
         
         //cria um novo elemento de lista para mostrar o nome sorteado
         let li = document.createElement('li');
-        li.textContent = nomeSorteado;
+        li.textContent = `O amigo(a) secreto(a) sorteado é: ${nomeSorteado}`;
         ul.appendChild(li);
 
         nomes.splice(indiceSorteado, 1); //remove o nome sorteado da lista para que ele não se repita em caso de um novo sorteio
