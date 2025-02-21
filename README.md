@@ -10,4 +10,6 @@ A aplicação permite que, a partir de uma lista de amigos fornecida pelo usuár
 - Sortear aleatoriamente ao clicar no botão
 
 
-![image](https://github.com/user-attachments/assets/2bcb1e5c-0ed1-4856-a819-2e5961e5e876)
+
+https://github.com/user-attachments/assets/2e5c4ce4-038e-424a-ab96-3723dc38ba37
+
